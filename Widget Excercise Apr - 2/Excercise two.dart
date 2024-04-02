@@ -58,27 +58,34 @@ class MyApp extends StatelessWidget {
             ),
            BottomSheet(onClosing: (){},
           builder: (BuildContext context){
-            return Container(
-              child: Column(
-                children: [
-                  const Text('Sub Total               60.98'),
-                 const Text('Tax                    6.10'),
-
-                  Container(
-                    width: double.infinity,
-                    decoration:const BoxDecoration(
-                      color:  Color.fromARGB(255, 253, 99, 122),
-
-                    ),
-                    child: TextButton(onPressed: (){}, 
-                    child: const Text("Check Out     67.89", style: TextStyle(
-                      color: Colors.white,
-                      fontSize: 24
-                    ),),))
-                ],
+            return Card(
+              elevation: 9  ,
+              child: Container(
+                decoration: const BoxDecoration(
+                 color: Colors.white54
+                ),
+                child: Column(
+                  
+                  children: [
+                    const Text('Sub Total               60.98'),
+                   const Text('Tax                    6.10'),
+              
+                    Container(
+                      width: double.infinity,
+                      decoration:const BoxDecoration(
+                        color:  Color.fromARGB(255, 253, 99, 122),
+              
+                      ),
+                      child: TextButton(onPressed: (){}, 
+                      child: const Text("Check Out     67.89", style: TextStyle(
+                        color: Colors.white,
+                        fontSize: 24
+                      ),),))
+                  ],
+                ),
+              
+              
               ),
-
-
             );
 
           })
