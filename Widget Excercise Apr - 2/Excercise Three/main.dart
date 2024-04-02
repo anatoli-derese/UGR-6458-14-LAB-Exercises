@@ -1,5 +1,3 @@
-import 'dart:convert';
-import 'dart:ffi';
 
 import 'package:flutter/material.dart';
 
@@ -27,7 +25,12 @@ class MyApp extends StatelessWidget {
           color: Colors.blueAccent,
           width: double.infinity,
           
-          child: SizedBox(
+          child: Container(
+            decoration: BoxDecoration(
+              color: Colors.purple
+              
+            ),
+            
             child: TextButton(
               child: const Text(
                 'Calculate',
