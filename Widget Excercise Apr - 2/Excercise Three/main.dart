@@ -63,7 +63,7 @@ class MyApp extends StatelessWidget {
                             size: 34,
                           ),
                           Text(
-                            'Male',
+                            'Gender',
                             style: TextStyle(color: Colors.white, fontSize: 23),
                           )
                         ],
@@ -84,7 +84,7 @@ class MyApp extends StatelessWidget {
                             size: 34,
                           ),
                           Text(
-                            'Female',
+                            'Gender',
                             style: TextStyle(color: Colors.white, fontSize: 23),
                           )
                         ],
@@ -108,10 +108,10 @@ class MyApp extends StatelessWidget {
                         mainAxisAlignment: MainAxisAlignment.center,
                         children: [
                           Text(
-                            '176',
+                            '1.66',
                             style: TextStyle(color: Colors.white, fontSize: 23),
                           ),
-                          Text(' cm')
+                          Text(' m')
                         ],
                       ),
                       Slider(
@@ -183,10 +183,10 @@ class MyApp extends StatelessWidget {
                         mainAxisAlignment: MainAxisAlignment.spaceAround,
                         children: [
                           const Text(
-                            "Age",
+                            "Text",
                           ),
                           const Text(
-                            "23",
+                            "num",
                             style: TextStyle(fontSize: 23, color: Colors.white),
                           ),
                           Row(
