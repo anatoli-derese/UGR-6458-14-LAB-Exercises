@@ -1,0 +1,1 @@
+ /home/anatoli/apr2/UGR-6458-14-LAB-Exercises/state_managment_with_provider/.dart_tool/flutter_build/85f21c348ffbefb2baf65cbf66fe88cd/native_assets.yaml: 
