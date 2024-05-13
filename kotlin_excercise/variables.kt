@@ -20,6 +20,7 @@ fun main() {
         }
       }
     }
-    println(result)
+
+    println("result is$ { result }")
   }
   
