@@ -184,5 +184,5 @@ fun MessageCard(msg: Message) {
     }
 }
 
-  
+
 
