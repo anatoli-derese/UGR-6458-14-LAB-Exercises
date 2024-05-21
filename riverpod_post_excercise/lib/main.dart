@@ -64,7 +64,7 @@ class MyHomePage extends ConsumerWidget {
           final fetchedData = await apiService
               .fetchData('https://jsonplaceholder.typicode.com/albums');
           ref.read(fetchedDataProvider.notifier).state = fetchedData;
-        },
+        } ,
         child: const Icon(Icons.refresh),
       ),
     );
